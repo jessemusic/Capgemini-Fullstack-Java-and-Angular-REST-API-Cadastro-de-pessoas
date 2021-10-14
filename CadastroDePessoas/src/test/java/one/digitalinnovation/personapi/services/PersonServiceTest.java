@@ -1,4 +1,4 @@
-package br.com.mattec.api.restful.services;
+package one.digitalinnovation.personapi.services;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -13,8 +13,8 @@ import br.com.mattec.api.restful.mapper.PersonMapper;
 import br.com.mattec.api.restful.repositories.PersonRepository;
 import br.com.mattec.api.restful.services.PersonService;
 
-import static br.com.mattec.api.restful.utils.PersonUtils.createFakeDTO;
-import static br.com.mattec.api.restful.utils.PersonUtils.createFakeEntity;
+import static one.digitalinnovation.personapi.utils.PersonUtils.createFakeDTO;
+import static one.digitalinnovation.personapi.utils.PersonUtils.createFakeEntity;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.any;
 import static org.mockito.Mockito.when;
