@@ -1,4 +1,4 @@
-package one.digitalinnovation.personapi;
+package br.com.mattec.api.restful.personapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

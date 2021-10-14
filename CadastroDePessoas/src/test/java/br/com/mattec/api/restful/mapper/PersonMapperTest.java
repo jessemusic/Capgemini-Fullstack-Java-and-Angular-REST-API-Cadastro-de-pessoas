@@ -1,6 +1,5 @@
-package one.digitalinnovation.personapi.mapper;
+package br.com.mattec.api.restful.mapper;
 
-import one.digitalinnovation.personapi.utils.PersonUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,6 +9,7 @@ import br.com.mattec.api.restful.dto.request.PhoneDTO;
 import br.com.mattec.api.restful.entities.Person;
 import br.com.mattec.api.restful.entities.Phone;
 import br.com.mattec.api.restful.mapper.PersonMapper;
+import br.com.mattec.api.restful.utils.PersonUtils;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

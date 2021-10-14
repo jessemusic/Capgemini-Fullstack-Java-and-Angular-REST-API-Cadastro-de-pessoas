@@ -1,4 +1,4 @@
-package one.digitalinnovation.personapi.utils;
+package br.com.mattec.api.restful.utils;
 
 import br.com.mattec.api.restful.dto.request.PhoneDTO;
 import br.com.mattec.api.restful.entities.Phone;
